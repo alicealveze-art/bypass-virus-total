@@ -9,9 +9,9 @@
 #include <sddl.h>
 #include <urlmon.h>
 #include <array>
-#include <iomanip> // Для std::setw и std::setfill
-#include <memory>   // Для std::unique_ptr
-#include <stdexcept> // Для std::runtime_error
+#include <iomanip>
+#include <memory>
+#include <stdexcept>
 
 #pragma comment(lib, "iphlpapi.lib")
 #pragma comment(lib, "urlmon.lib")
@@ -130,3 +130,4 @@ int main() {
 
     return 1;
 }
+
