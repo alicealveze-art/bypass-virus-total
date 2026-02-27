@@ -16,15 +16,8 @@
 - I do not support any type of malicious activity with my code, nor take any responsability for any damage caused by it. Use at your own risk. 
 - For learning purposes
 
-## How to build
+## como buildar
 New version 
 ```cpp
 g++ -o main.exe main.cpp -lws2_32 -liphlpapi -luuid -lurlmon
-```
-------------
-Old version
-```cpp
-
-g++ -o kerpy.exe kerpy.cpp -lws2_32 -liphlpapi
-
 ```
